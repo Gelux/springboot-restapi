@@ -1,0 +1,12 @@
+insert into user values(101, 'geluxedeluxe@gmail.com', 'jes98255', sysdate());
+insert into user values(102,'geluxedeluxe2@gmail.com', 'jes98255', sysdate());
+insert into user values(103,'dummy', '0000', sysdate());
+insert into urls values(1001,  'https://github.com/DovAmir/awesome-design-patterns', 'Pending', 101);
+insert into urls values(1002,  'https://github.com/iluwatar/java-design-patterns', 'Done', 101);
+insert into urls values(1003,  'https://github.com/google/guava', 'Canceled', 101);
+insert into urls values(1004,  'https://github.com/OpenNMS/opennms', 'Pending', 101);
+insert into urls values(1005,  'https://github.com/android10/Android-CleanArchitecture', 'Canceled', 102);
+insert into urls values(1006,  'https://github.com/google/ExoPlayer', 'Done', 102);
+insert into urls values(1007,  'https://github.com/realm/realm-java', 'Pending', 102);
+insert into urls values(1008,  'https://github.com/google/auto', 'Done', 101);
+insert into urls values(1009,  'https://github.com/dropwizard/dropwizard', 'Canceled', 102);
